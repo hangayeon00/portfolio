@@ -1,0 +1,296 @@
+/* CSS RESET */
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+a {text-decoration: none;
+    color:#000;}
+li {list-style: none;}
+
+.header .yellow_bar {
+    width:17%;
+    height:20px;
+    background-color:#FEDD4C;
+    float:left;
+}
+.header .gray_bar {
+    width:100%;
+    height:20px;
+    background-color:#EFEFEF;
+}
+.header .nav ul{
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:bold;
+    font-size:24px;
+    text-align:center;
+    margin-top:20px;
+}
+.header .nav {
+}
+
+.header .nav .nav1 {
+    display:inline-block;
+    float:left;
+    margin-left:100px;
+}
+.header .nav .nav2 {
+    display:inline-block;
+}
+.header .nav .nav3 {
+    display:inline-block;
+    float:right;
+    margin-right:100px;
+}
+.contents {
+    width:1280px;
+    margin:0 auto;
+}
+.contents .title {
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:bold;
+    font-size:140px;
+    margin-top:209px;
+}
+.contents .box1 {
+    width:640px;
+    height:137px;
+    background-color:#FEDD4C;
+    margin-top:96px;
+    float:left;
+    margin-bottom:78px;
+}
+.contents .box1:hover {
+    width:640px;
+    height:137px;
+    background-color:#000;
+    margin-top:96px;
+    float:left;
+    color:#fff;
+    margin-bottom:78px;
+    transition:all 1s;
+}
+.contents .box1 .box1_text {
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:bold;
+    font-size:44px;
+    line-height:137px;
+    text-align:center;
+}
+.contents .box2 {
+    width:640px;
+    height:137px;
+    background-color:#EFEFEF;
+    margin-top:96px;
+    float:left;
+    margin-bottom:78px;
+}
+.contents .box2:hover {
+    width:640px;
+    height:137px;
+    background-color:#000;
+    margin-top:96px;
+    float:left;
+    color:#fff;
+    margin-bottom:78px;
+    transition:all 1s;
+}
+.contents .box2 .box2_text {
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:bold;
+    font-size:44px;
+    line-height:137px;
+    text-align:center;
+}
+.contents::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.footer{
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:medium;
+    font-size:24px;
+    margin:80px 0 0 0;
+}
+.footer .name {
+    float:left;
+    margin-left:100px;
+}
+.footer .text {
+    float:right;
+    margin-right:100px;
+}
+.footer ul::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.footer .gray_bar2 {
+    width:100%;
+    height:20px;
+    background-color:#EFEFEF;
+    margin-top:20px;
+}
+
+.portfolio_contents .portfolio{
+    width:630px;
+    height:380px;
+    background-color:#000;
+    float:left;
+    margin:10px;
+}
+
+.portfolio_contents::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+
+
+.portfolio_contents {
+    width:1300px;
+    margin:0 auto;
+    margin-top:71px;
+}
+
+
+.portfolio_contents .portfolio_box {
+    width:100%;
+    height:100%;
+    position:relative;
+}
+.portfolio_contents .portfolio_hover {
+    width:100%;
+    height:100%;
+    display:absolute;
+    background-color:#000;
+    opacity:0;
+    transition:all 1s;
+}
+.portfolio_contents .portfolio_box:hover .portfolio_hover{
+    opacity:0.85;
+}
+.portfolio_contents .portfolio_hover .portfolio_inner {
+    position:absolute;
+    width:490px;
+    top:107px;
+    left:70px;
+}
+.portfolio_contents .portfolio_hover .portfolio_text {
+    color:#fff;
+    font-family:"montserrat", san-serif, "돋움";
+    font-size:19x;
+    margin-bottom:10px;
+    width:205px;
+}
+.portfolio_contents .portfolio_hover .portfolio_title {
+    color:#fff;
+    font-family:"montserrat", san-serif, "돋움";
+    font-weight:bold;
+    font-size:35px;
+    margin-bottom:50px;
+}
+.portfolio_contents .portfolio_hover .portfolio_adobe {
+    color:#fff;
+    opacity:0.5;
+    line-height:1.75;
+    font-family:"montserrat", san-serif, "돋움";
+    font-size:14px;
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:end;
+    
+}
+.portfolio_contents .portfolio_hover .bottom_text {
+    color:#fff;
+    font-family:"montserrat", san-serif, "돋움";
+    font-size:16px;
+    height:40px;
+}
+.portfolio_contents .portfolio_hover .bottom_text .portfolio_contribution {
+    float:left;
+    line-height:40px;
+}
+.portfolio_contents .portfolio_hover .bottom_text .go_group {
+    float:right;
+    width:205px;
+
+}
+.portfolio_contents .portfolio_hover .bottom_text .go_pdf {
+    color:#fff;
+    font-family:"montserrat", san-serif, "돋움";
+    font-size:16px;
+    font-weight:bold;
+    border:1px solid #fff;
+    width:89px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    float:right;
+}
+
+.portfolio_contents .portfolio_hover .bottom_text .go_url {
+    color:#fff;
+    font-family:"SpoqaHanSans","montserrat",san-serif, "돋움";
+    font-size:16px;
+    font-weight:bold;
+    border:1px solid #fff;
+    width:89px;
+    height:40px;
+    text-align:center;
+    line-height:40px;
+    float:right;
+    margin-left:20px;
+}
+.portfolio_contents .portfolio_hover .bottom_text  img{
+    vertical-align:middle;
+}
+
+
+
+/*contact me.*/
+
+
+.contact_me {
+    float:right;
+    margin-right:320px;
+    margin-top:153px;
+    margin-bottom:129px;
+}
+.contact::after {
+    content:"";
+    display:block;
+    clear:both;
+}
+.call {
+    font-family:"montserrat",san-serif, "돋움";
+    font-size:24px;
+    font-weight:medium;
+    border:1px solid #fff;
+    margin-right:70px;
+}
+.call .call_title {
+    border-bottom:0px solid #fff;
+    box-shadow:inset 0 -10px 0 #FEDD4C;
+    font-weight:bold;
+}
+.call .call_text {
+    margin-left:20px;
+}
+.email {
+    font-family:"montserrat",san-serif, "돋움";
+    font-size:24px;
+    font-weight:medium;
+    border:1px solid #fff;
+}
+.email .email_title {
+    border-bottom:0px solid #fff;
+    box-shadow:inset 0 -10px 0 #FEDD4C;
+    font-weight:bold;
+}
+.email .email_text {
+    margin-left:20px;
+}
